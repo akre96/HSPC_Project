@@ -1,0 +1,11 @@
+# Virtual ENV
+venv
+
+# Cache files
+__pycache__
+.mypy_cache
+.pytest_cache
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
