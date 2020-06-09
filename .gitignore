@@ -1,4 +1,4 @@
-# Virtual ENV
+# virtual environment
 venv
 
 # Cache files
@@ -9,3 +9,6 @@ __pycache__
 # Jupyter notebook checkpoints
 .ipynb_checkpoints
 
+# VS Code files
+.vscode
+*.code-workspace
