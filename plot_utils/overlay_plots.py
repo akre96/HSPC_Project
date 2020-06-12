@@ -10,7 +10,7 @@ def dot_line_overlay(
     x: str,
     y: str,
     hue: str,
-    split: bool,
+    dodge: bool,
     data: pd.DataFrame,
     dot_plot=sns.swarmplot,
     ax: Any = None,
@@ -28,7 +28,7 @@ def dot_line_overlay(
         y=y,
         hue=hue,
         hue_order=hue_order,
-        split=split,
+        dodge=dodge,
         data=data,
         ax=ax,
         zorder=0,
@@ -55,6 +55,7 @@ def dot_line_overlay(
         hue=hue,
         hue_order=hue_order,
         data=data,
+        dodge=dodge,
         ax=ax,
         fliersize=0,
         showbox=False,
@@ -68,3 +69,4 @@ def dot_line_overlay(
         medianprops=medianprops,
         zorder=1,
     )
+    return ax
